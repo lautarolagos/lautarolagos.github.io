@@ -116,18 +116,18 @@ main {
 
 #homeContainer {
     margin-top: 10em;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
 }
 
 #homeLeft {
-    background-color: red;
+    /* background-color: red; */
     float: left;
     width: 60%;
 }
 
 #homeRight {
-    background-color: green;
+    /* background-color: green; */
     float: right;
     width: 40%;
 }
