@@ -151,13 +151,90 @@ main {
 }
 
 
-/* .brownRectangle {
+.brownRectangle {
     background-color: #ede0d4;
-    width: 35em;
-    height: 18em;
+    width: 37em;
+    height: 13em;
     margin: 20em 0 0 18em;
-} */
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+}
 
+.whiteRectangle {
+    background-color: #ffffff;
+    width: 37em;
+    height: 13em;
+    margin: 22.5em 0 0 -35em;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+}
+
+.whiteRectangle p {
+    font-family: 'Questrial', sans-serif;
+    color: #000000;
+    font-size: 1.56rem;
+    line-height: 1.3em;
+    padding: 0.5em;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.cardAboutMe {
+    background-color: #ede0d4;
+    width: 25em;
+    height: 40em;
+    margin: 10em 0 0 13em;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.6);
+}
+
+/*.triangle {
+    margin: 1em 0 0 3.5em;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 145px 270px 145px;
+    border-color: transparent transparent #000000 transparent;
+    filter: drop-shadow(11px 7px 5px rgba(0, 0, 0, 0.64));
+}*/
+
+.triangle {
+    margin: 1.2em 0 0 2.5em;
+    position: relative;
+    width: 20em;
+    height: 35em;
+    background-color: #000000;
+    clip-path: polygon(50% 0, 100% 50%, 50% 50%, 0 50%);
+    filter: drop-shadow(11px 7px 5px rgba(0, 0, 0, 0.64));
+}
+
+.cardAboutMe p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    text-align: center;
+    line-height: 2.3em;
+    margin-top: -8.5em;
+}
+
+.triangleLinks {
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
+
+.triangleLinks li {
+    font-size: 2.5rem;
+    list-style: none;   
+}
+
+.triangleLinks li a {
+    text-decoration: none;
+    color: #000000;
+}
 
 /* END : MAIN */
 
